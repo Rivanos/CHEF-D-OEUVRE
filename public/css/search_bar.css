@@ -1,0 +1,88 @@
+.stylish-input-group .input-group-addon{
+  background: white !important;
+}
+.stylish-input-group .form-control{
+  box-shadow:0 0 0;
+  border-color: #40434E;
+}
+.stylish-input-group button{
+  border:0;
+  background:transparent;
+}
+.form-control:focus{
+  border-color: pink;
+}
+.input-group-addon {
+  padding: 9px 12px;
+  border: 3px solid;
+  border-color: #40434E;
+  font-size: 14px;
+}
+.glyphicon{
+  top: 0;
+}
+/* NOTE: affichage des résutlats. */
+.result{
+  position: absolute;
+  background-color: rgb(253,207,243);
+  z-index: 999;
+  width: 96%;
+  border-radius: 0px 0px 4px 4px;
+}
+.row-result{
+  border-bottom: 1px solid pink;
+}
+.thumbnail_search{
+  margin-top: 20px;
+}
+.text_search{
+  margin-top: 45px;
+  text-align: center;
+}
+/* NOTE: design rose pour les input focus */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus{
+  border-color: rgba(255, 189, 189, 1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 189, 189, 0.8);
+  outline: 0 none;
+}
+input[type="text"]:focus + .input-group-addon{
+  border-color: rgba(255, 189, 189, 1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 189, 189, 0.8);
+  border-left: 0;
+  outline: 0 none;
+}
+.recherche{
+  padding: 25px;
+  border: 3px solid;
+}
+.recherche:placeholder-shown{
+  font-size: 30px;
+}
+.recherche::placeholder {
+  color: #40434E;
+}
+.remove-text{
+  position: absolute;
+  z-index: 3;
+  top: 7px;
+  font-size: 20px;
+  right: 45px;
+}
+.button:focus,{
+  border-color: rgba(255, 189, 189, 1);
+}

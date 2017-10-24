@@ -1,0 +1,105 @@
+.well {
+  min-height: 20px;
+  padding: 0px;
+  margin-bottom: 20px;
+  background-color: #E9B79C;
+  border: 1px solid #E9B79C;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  padding-left: 15px;
+  border:0px;
+}
+.administration{
+  font-size: 150px;
+}
+.img-admin-link{
+  width: 300px;
+}
+.trash{
+  font-size: 15px;
+}
+.dates{
+  color: #E9B79C;
+}
+.dates:hover, .dates:focus{
+  color: #40434E;
+}
+.date {
+  font-size: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.alert {
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: white;
+}
+.alert-succes {
+  background-color: green;
+}
+.img-circle{
+  margin-right: 10px;
+}
+.no-btn{
+  background-color: transparent;
+  border: none;
+}
+.vers-le-haut{
+  margin-top: -15px;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.icon-style
+{
+  margin-right:15px;
+  font-size:18px;
+  margin-top:20px;
+}
+p
+{
+  margin:3px;
+}
+.well-add-card
+{
+  margin-bottom:10px;
+}
+.btn-add-card
+{
+  margin-top:20px;
+}
+.btn-primary{
+  color: #fff;
+  background-color: #40434E;
+  border-color: #070707;
+}
+.btn-primary:hover, .btn-primary:focus{
+  background-color: #400406;
+}
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 6px solid #E9B79C;
+  border-radius: 15px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.btn
+{
+  border-radius:0px;
+}
+.btn-update
+{
+  margin-left:15px;
+}

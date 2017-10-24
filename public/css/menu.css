@@ -1,0 +1,124 @@
+.toggleMenu {
+  display:  none;
+  background: #666;
+  padding: 10px 15px;
+  color: black;
+}
+.logo{
+  padding-left: 40px;
+  padding-top: 15px;
+}
+.nav {
+  float: right;
+  padding-right: 40px;
+  padding-top: 40px;
+  list-style: none;
+  *
+}
+.nav:before,
+.nav:after {
+  content: " ";
+  display: table;
+}
+.nav:after {
+  clear: both;
+}
+.nav ul {
+  list-style: none;
+  width: 9em;
+}
+.nav a {
+  font-size: 20px;
+  padding: 10px 15px;
+  color:black;
+}
+.nav li {
+  position: relative;
+}
+.nav > li {
+  float: left;
+}
+.nav > li > a {
+  display: block;
+}
+.nav li  ul {
+  position: absolute;
+  left: -9999px;
+}
+.nav > li.hover > ul {
+  left: 0;
+}
+.nav li li.hover ul {
+  left: 100%;
+  top: 0;
+}
+.nav li li a {
+  display: block;
+  position: relative;
+  z-index:100;
+}
+
+@media screen and (max-width: 768px) {
+  .active {
+    display: block;
+  }
+  .nav > li {
+    float: none;
+  }
+  .nav > li > .parent {
+    background-position: 95% 50%;
+  }
+  .nav li li .parent {
+    background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+  }
+  .nav ul {
+    display: block;
+    width: 100%;
+  }
+  .nav > li.hover > ul , .nav li li.hover ul {
+    position: static;
+  }
+
+}
+.nav > li > a.color1:hover{
+  background:#EF5F21;
+  color: #ffffff;
+}
+.nav > li > a.color2:hover{
+  background:#589D3E;
+  color: #ffffff;
+}
+.nav > li > a.color3:hover{
+  background:#00ACED;
+  color: #ffffff;
+}
+.nav > li > a.color4:hover{
+  background:#D61F85;
+  color: #ffffff;
+}
+.nav > li > a.color5:hover{
+  background:#F89F1B;
+  color: #ffffff;
+}
+.nav > li > a.color6:hover{
+  background:#00677C;
+  color: #ffffff;
+}
+.nav > li > a.color7:hover{
+  background:#D5331D;
+  color: #ffffff;
+}
+.nav > li > a.color8:hover{
+  background:#00405d;
+  color: #ffffff;
+}
+.nav > li > a.color9:hover{
+  background:#9CB43A;
+  color: #ffffff;
+}
+.nav > li > a.color10:hover{
+  background:#26BC85;
+  color: #ffffff;
+}

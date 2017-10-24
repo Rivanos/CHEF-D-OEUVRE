@@ -1,0 +1,36 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top : 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0, .7);
+  display: none;
+}
+.modal-frame {
+  width: 400px;
+  margin: 100px auto 0 auto;
+  background: white;
+}
+.modal-frame header, .modal-frame main, .modal-frame footer {
+  padding: 20px;
+}
+
+.modal-frame .btn-quit {
+  float: right;
+}
+/* ACTIONS */
+.modal-wrapper.show {
+  display: block;
+}

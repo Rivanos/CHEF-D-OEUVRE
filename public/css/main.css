@@ -1,0 +1,135 @@
+/* NOTE: faire une col-md-1.5*/
+.col-md-1-5 {
+  width: 12.499999995%;
+}
+.col-md-11-11{
+  width: 11.1111111111%;
+}
+/* NOTE: création d'espacement*/
+.intersection{
+  height: 4vh;
+}
+.intersection_ribbon{
+  padding-top: 20px;
+  width: 320px;
+  margin: 0 auto;
+  height: 150px;
+}
+.espacement {
+  margin-top: 35px;
+}
+/* NOTE: color font */
+a {
+  color: pink;
+}
+/* NOTE: design article */
+.content_aricle{
+  box-shadow: 10px 10px 20px;
+  padding: 15px 5px;
+}
+/* NOTE: triangle coup de coeur */
+.triangle{
+  position: absolute;
+  top: 0;
+  right: 15px;
+  border-style: solid;
+  border-width: 0 72px 46px 0;
+}
+.heart_attack {
+  border-color: transparent #ff0015 transparent transparent;
+}
+.most_sell{
+  border-color: transparent #22ff00 transparent transparent;
+}
+.icon-heart{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 7px;
+  left: 42px;
+}
+.icon-thumbs-up {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 7px;
+  left: 42px;
+}
+.clover {
+  position: absolute;
+  color: white;
+  width: 20px;
+  font-size: 20px;
+  top: 7px;
+  left: 42px;
+}
+.euro {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+.prix{
+  font-size: 2em;
+  font-weight: 200;
+  margin: 0 0 0px;
+}
+.thumbsup{
+  border: none;
+  padding: 2px;
+  display: block;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+/* NOTE: menu sur image dans le menu image */
+.thumbnail {
+  border: none;
+  padding: 2px;
+}
+.thumbnail:hover {
+  background-color: pink;
+  opacity: 0.9;
+}
+.titlepinky{
+  font-size: 25px;
+  color: black;
+  position: absolute;
+  border: 1px solid black;
+  padding: 8px 25px;
+  letter-spacing: 0.2em;
+}
+.title {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  border: 1px solid white;
+  padding: 8px 25px;
+  letter-spacing: 0.2em;
+}
+.thumbnail:hover .title, .thumbnail:hover .titlepinky {
+  color: black;
+  border: 1px solid pink;
+  background-color: pink;
+  opacity: 0.7;
+}
+.right{
+  top: 10px;
+  left: 25px;
+}
+.middlebot{
+  bottom: 25px;
+  right: 50%;
+}
+.lefttop{
+  top: 10px;
+  right:25px;
+}
+@media only screen and (max-width: 767px) {
+    #sous-menu, #ribbon-vert, #ribbon-rouge{
+      display: none;
+    }
+}
